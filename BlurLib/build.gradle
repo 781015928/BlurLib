@@ -1,4 +1,6 @@
 apply plugin: 'com.android.model.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='781015928'
 model {
 android {
     compileSdkVersion 24
