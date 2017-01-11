@@ -1,0 +1,23 @@
+apply plugin: 'com.android.model.library'
+model {
+android {
+    compileSdkVersion 24
+    buildToolsVersion  '24.0.0'
+
+    defaultConfig {
+        minSdkVersion.apiLevel = 15
+        targetSdkVersion.apiLevel = 24
+        versionCode = 1
+        versionName = "1.0.0"
+        ndk {
+            moduleName = 'genius_blur'
+            ldLibs.addAll(['m', 'log', 'jnigraphics'])
+            //abiFilters.addAll(['armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'])
+            //cppFlags.addAll(['-DANDROID_NDK', '-D_RELEASE'])
+        }
+    }
+}
+
+}
+
+
