@@ -21,7 +21,8 @@
 #include <android/log.h>
 #include <android/bitmap.h>
 #include "stackblur.h"
-
+#include <stdlib.h>
+#include <jni.h>
 #define TAG "com_czg_fastblur_StackNative"
 #define LOG_D(...) __android_log_print(ANDROID_LOG_DEBUG,TAG ,__VA_ARGS__)
 

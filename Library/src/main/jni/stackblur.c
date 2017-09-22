@@ -1,10 +1,3 @@
-/*************************************************
-Copyright:  Copyright QIUJUER 2016.
-Author:		QiuJuer
-CreateDate:		2015-04-28
-ChangeDate: 	2016-05-29
-Description:Realize image blurred images blurred
-**************************************************/
 #include <malloc.h>
 
 #define ABS(a) ((a)<(0)?(-a):(a))

@@ -10,16 +10,21 @@ android {
         minSdkVersion MIN_SDK_VERSION as int
         targetSdkVersion TARGET_SDK_VERSION as int
 
-        ndk {
-            moduleName = 'genius_blur'
-            //ldLibs.addAll(['m', 'log', 'jnigraphics'])
-            //abiFilters.addAll(['armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'])
-            //cppFlags.addAll(['-DANDROID_NDK', '-D_RELEASE'])
-        }
+//        ndk {
+//            moduleName = 'genius_blur'
+//            //ldLibs.addAll(['m', 'log', 'jnigraphics'])
+//            //abiFilters.addAll(['armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'])
+//            //cppFlags.addAll(['-DANDROID_NDK', '-D_RELEASE'])
+//        }
         sourceSets {
             main {
                 jni.srcDirs = []
             }
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path file("src/main/jni/Android.mk")
         }
     }
 }
