@@ -1,3 +1,7 @@
 # BlurLib
 Jni高斯模糊
-  Bitmap Newbitmap =BlurUtils.doBlur(oldbitmap, 0.2f, 24);  缩放比例  radius
+```
+  Bitmap Newbitmap =BlurUtils.doBlur(oldbitmap, scaled, radius);  
+```
+![Image text](SNAPSHOT/SNAPSHOT1.gif)
+compile 'com.czg.utils:UtilsDebug:1.0.4' 
