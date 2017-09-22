@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BlurLib.iml" filepath="$PROJECT_DIR$/BlurLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Library/BlurLib-BlurLib.iml" filepath="$PROJECT_DIR$/Library/BlurLib-BlurLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
     </modules>
   </component>
 </project>
